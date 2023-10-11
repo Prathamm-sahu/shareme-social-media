@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
